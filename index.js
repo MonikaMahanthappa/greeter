@@ -1,5 +1,9 @@
 function greet(person) {
-	return "Hello, linked" + person
+	return "Hello, linked " + person
+}
+
+function bye(person) {
+	return "Bye, linked " + person
 }
 
 module.exports = {
