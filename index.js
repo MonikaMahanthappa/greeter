@@ -6,7 +6,12 @@ function bye(person) {
 	return "Bye, linked " + person
 }
 
+function hello(person) {
+	return "Hello, linked " + person
+}
+
 module.exports = {
 	'greet': greet,
-	'bye': bye
+	'bye': bye,
+	'hello': hello
 };
