@@ -7,5 +7,6 @@ function bye(person) {
 }
 
 module.exports = {
-	'greet': greet
+	'greet': greet,
+	'bye': bye
 };
